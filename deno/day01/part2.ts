@@ -8,10 +8,8 @@ const lines = input.readable
 const ls: number[] = [];
 const rs: Map<number, number> = new Map();
 
-const DELIMITER = "   ";
-
 for await (const line of lines) {
-  const [l, r] = line.split(DELIMITER).map((i) => parseInt(i));
+  const [l, r] = line.split("   ").map((i) => parseInt(i));
   ls.push(l);
   rs.set(r, (rs.get(r) ?? 0) + 1);
 }

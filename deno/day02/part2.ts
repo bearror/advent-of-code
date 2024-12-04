@@ -7,10 +7,8 @@ const lines = input.readable
 
 let solution = 0;
 
-const DELIMITER = " ";
-
 for await (const line of lines) {
-  const levels = line.split(DELIMITER).map((i) => parseInt(i));
+  const levels = line.split(" ").map((i) => parseInt(i));
 
   // Note that it's necessary to start from -1 to include the original variant
   for (let removed = -1; removed < levels.length; removed++) {

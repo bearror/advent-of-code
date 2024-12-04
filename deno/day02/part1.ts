@@ -7,10 +7,8 @@ const lines = input.readable
 
 let solution = 0;
 
-const DELIMITER = " ";
-
 for await (const line of lines) {
-  const levels = line.split(DELIMITER).map((i) => parseInt(i));
+  const levels = line.split(" ").map((i) => parseInt(i));
 
   if (levels.length < 2 || levels[0] === levels[1]) continue; // skip
   const mode = levels[1] > levels[0] ? "inc" : "dec";

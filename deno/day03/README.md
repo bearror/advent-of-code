@@ -4,6 +4,11 @@
 
 ### Problem
 
+1. Given a garbled input, find segments that match `mul(X,Y)`, where `X` and `Y`
+   are numbers with 1-3 digits.
+2. Perform these multiplication operations.
+3. Add up the results.
+
 ### Solution
 
 Uh oh, I guess I'll have to try and get back into parser combinators eventually.
@@ -15,6 +20,11 @@ those into integers and do the multiplication, adding the results together.
 ## Part 2
 
 ### Problem
+
+1. Given the same problem statement from Part 1, ignore any multiplications
+   between `don't()` and `do()`.
+2. Perform these multiplications.
+3. Add up the results.
 
 ### Solution
 

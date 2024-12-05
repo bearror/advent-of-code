@@ -1,4 +1,4 @@
-const input = await Deno.readTextFile("./day03/input.txt");
+const input = await Deno.readTextFile("./inputs/day03.txt");
 
 let solution = 0;
 

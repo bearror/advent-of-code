@@ -1,4 +1,4 @@
-const input = await Deno.readTextFile("./day04/input.txt")
+const input = await Deno.readTextFile("./inputs/day04.txt")
   .then((text) => text.replaceAll("\n", "")); // to avoid newline row offsets
 
 type Point = [number, number];

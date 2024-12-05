@@ -1,6 +1,6 @@
 import { TextLineStream } from "@std/streams";
 
-const input = await Deno.open("./day01/input.txt");
+const input = await Deno.open("./inputs/day01.txt");
 const lines = input.readable
   .pipeThrough(new TextDecoderStream())
   .pipeThrough(new TextLineStream());

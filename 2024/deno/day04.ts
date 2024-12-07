@@ -84,7 +84,7 @@ export default function solve(input: string, part: 1 | 2) {
   return solution;
 }
 
-/** Finds the given word starting at the point, stepping in the direction. */
+/** Finds the given word starting at the point, searching in the direction. */
 const find = (word: Word, [x, y]: Point, [dx, dy]: Direction, get: Get) =>
   Array.from(word).entries()
     .every(([i, character]) => get([x + dx * i, y + dy * i]) === character);

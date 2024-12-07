@@ -53,7 +53,7 @@ type Get = (point: Point) => string | undefined;
  * assertEquals(solve(example, 2), 9, "part 2");
  * ```
  */
-export default function solve(input: string, part: 1 | 2) {
+export default function solve(input: string, part: 1 | 2): number {
   const width = input.indexOf("\n");
   const toIndex = ([x, y]: Point): Index => x + y * width;
   const toPoint = (i: Index): Point => [i % width, Math.floor(i / width)];

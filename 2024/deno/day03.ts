@@ -25,7 +25,7 @@ type Memory = string;
  * assertEquals(solve(example2, 2), 48, "part 2");
  * ```
  */
-export default function solve(input: string, part: 1 | 2) {
+export default function solve(input: string, part: 1 | 2): number {
   const memory: Memory = input.split("\n").join("");
   if (part === 1) return mul(memory);
   // - The `do()` instruction **enables** future `mul` instructions.

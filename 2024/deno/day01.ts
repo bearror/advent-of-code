@@ -28,7 +28,7 @@ type List = number[];
  * assertEquals(solve(example, 2), 31, "part 2");
  * ```
  */
-export default function solve(input: string, part: 1 | 2) {
+export default function solve(input: string, part: 1 | 2): number {
   const [left, right]: Input = [[], []];
   for (const line of input.split("\n")) {
     const [l, r] = line.split(/\s+/).map(Number);

@@ -1,5 +1,7 @@
 # Advent of Code
 
+Taking it slow over here, focusing on solutions I like looking at. 🦥
+
 > [!NOTE]
 > Inputs are stored as text files in an `inputs` directory under each year,
 > sharing a naming convention with the solutions, e.g. `2024/inputs/day01.txt`.

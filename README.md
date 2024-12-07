@@ -3,8 +3,8 @@
 > [!NOTE]
 > Inputs are stored as text files in an `inputs` directory under each year,
 > sharing a naming convention with the solutions, e.g. `2024/inputs/day01.txt`.
-> Tooling for downloading your own inputs isn't currently implemented. You can
-> still run tests against example inputs without copying over your own inputs.
+> Tooling for downloading your own inputs isn't implemented. You can still run
+> tests against example inputs without copying over your own inputs.
 >
 > See the [FAQ on copying] for context on why the inputs are in `.gitignore`.
 

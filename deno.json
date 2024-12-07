@@ -1,0 +1,12 @@
+{
+  "tasks": {
+    "solve": {
+      "description": "Solve the puzzle for a given `--day`",
+      "command": "deno --allow-read 2024/deno/main.ts"
+    },
+    "test": {
+      "description": "Run co-located tests against example inputs",
+      "command": "deno test --doc"
+    }
+  }
+}
